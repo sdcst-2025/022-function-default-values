@@ -20,13 +20,17 @@ def sample(a, b=4, c="Test"):
     output = output + c
   return output
 
+def main():
+  x = sample(a=10,c="Fish")
+  print(x)
 
-x = sample(a=10,c="Fish")
-print(x)
+  # All of a sudden the print statement makes some sense.
+  print("hello!" , end="ending")
+  print("hello!" , flush=True, end="*")
+  # the print statement is a function that has some optional input parameters
+  # it requires some specific output to be displayed, but can also take some
+  # optional parameters for end and flush
 
-# All of a sudden the print statement makes some sense.
-print("hello!" , end="ending")
-print("hello!" , flush=True, end="*")
-# the print statement is a function that has some optional input parameters
-# it requires some specific output to be displayed, but can also take some
-# optional parameters for end and flush
+
+if __name__ == "__main__":
+  main()

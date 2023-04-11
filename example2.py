@@ -21,9 +21,13 @@ def sample(a, b=4, c="Test"):
     output = output + c
   return output
 
-print(sample(3))
-sample(2,5,"cat")
-sample(5,3)
+def main():
+  print(sample(3))
+  sample(2,5,"cat")
+  sample(5,3)
 
 # Note that with this structure, you can't specify to use the default value of b
 # and enter your own value for c.  See how this can be done in example3.py
+
+if __name__ == "__main__":
+  main()
