@@ -11,12 +11,16 @@ def multiply(x=2):
   # by default, the value for x is 2
   # this function does not need to return a value, but we can
   # include a return None statement to show it has no output
+  # IMPORTANT: This is bad code. You should not be including print statements
+  # inside a function unless the purpose of the function is to provide output
+  # or unless you are debugging to find out what is happening inside the function
   
     print(x*5)
     return None
 
-def divide(x=2)
-  # or we can have the function return nothing
+def divide(x=2):
+  # or we can have the function return nothing, no variable, no value and you don't
+  # even need to include None
   print(x/5)
   return
     
