@@ -27,24 +27,23 @@ if __name__ == "__main__":
     assert calcTax(42.7) == 2.99
     assert calcTax(125.67) == 8.8
     assert calcTax(40.33) == 2.82
-    assert calcTax(34.75,0.12) == 4.17
-    assert calcTax(43.6,0.03) == 1.31
-    assert calcTax(49.01,0.04) == 1.96
-    assert calcTax(80.63,0.07) == 5.64
-    assert calcTax(4.78,0.03) == 0.14
-    assert calcTax(83.52,0.1) == 8.35
-    assert calcTax(103.91,0.12) == 12.47
-    assert calcTax(116.57,0.09) == 10.49
-    assert calcTax(78.39,0.11) == 8.62
-    assert calcTax(129.2,0.1) == 12.92
-    assert calcTax(19.09,0.03) == 0.57
-    assert calcTax(12.5,0.04) == 0.5
-    assert calcTax(47.49,0.04) == 1.9
-    assert calcTax(102.94,0.04) == 4.12
-    assert calcTax(16.58,0.05) == 0.83
-    assert calcTax(56.48,0.07) == 3.95
-    assert calcTax(148.14,0.07) == 10.37
-    assert calcTax(9.63,0.1) == 0.96
-    assert calcTax(94.01,0.11) == 10.34
-    assert calcTax(8.23,0.12) == 0.99  
- 
+    assert calcTax(75.34,9) == 6.78
+    assert calcTax(138.38,11) == 15.22
+    assert calcTax(121.88,12) == 14.63
+    assert calcTax(42.99,9) == 3.87   
+    assert calcTax(126.05,12) == 15.13
+    assert calcTax(108.01,7) == 7.56  
+    assert calcTax(100.35,11) == 11.04
+    assert calcTax(86.46,6) == 5.19   
+    assert calcTax(69.19,9) == 6.23   
+    assert calcTax(69.85,6) == 4.19   
+    assert calcTax(28.48,10) == 2.85  
+    assert calcTax(16.41,7) == 1.15   
+    assert calcTax(132.66,5) == 6.63
+    assert calcTax(81.53,12) == 9.78
+    assert calcTax(119.9,7) == 8.39
+    assert calcTax(72.86,4) == 2.91
+    assert calcTax(107.18,9) == 9.65
+    assert calcTax(105.83,12) == 12.7
+    assert calcTax(39.96,11) == 4.4
+    assert calcTax(139.73,9) == 12.58  
