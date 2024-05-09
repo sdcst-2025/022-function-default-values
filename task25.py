@@ -36,6 +36,6 @@ if __name__ == "__main__":
     assert convert(1,"USD","CAD") == 1.35
     assert convert(1,"BTC") == 62000
     assert convert(1,"BTC","CAD") == 83700
-    assert convert(1,"BTC","Eur") == 36470.59
+    assert convert(1,"BTC","Eur") == 57943.93
     
     
